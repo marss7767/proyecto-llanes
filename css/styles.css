@@ -172,3 +172,62 @@ footer {
         padding: 18px;
     }
 }
+/* Tabla de contactos */
+.tabla-scroll {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.tabla-contactos {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-contactos th,
+.tabla-contactos td {
+    padding: 11px 10px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+    overflow-wrap: anywhere;
+}
+
+.tabla-contactos th {
+    color: #173b67;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.tabla-contactos tbody tr:hover {
+    background-color: #f4f7fb;
+}
+
+/* Acciones dentro de la fila */
+.acciones-contacto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+}
+
+.acciones-contacto form {
+    margin: 0;
+    display: inline;
+}
+
+.acciones-contacto a {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.btn-eliminar {
+    background-color: #b53b3b;
+    margin-top: 0;
+    padding: 7px 12px;
+    font-size: 14px;
+}
+
+.btn-eliminar:hover {
+    background-color: #8f2c2c;
+}
