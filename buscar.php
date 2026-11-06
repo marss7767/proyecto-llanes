@@ -51,4 +51,8 @@ if ($busqueda !== '') {
         }
         ?>
     <?php endif; ?>
+<<<<<<< Updated upstream
 </section>
+=======
+</section>
+>>>>>>> Stashed changes

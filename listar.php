@@ -32,4 +32,8 @@ $resultado = $conexion->query($sql);
     <?php else: ?>
         <p>No se encontraron contactos guardados.</p>
     <?php endif; ?>
+<<<<<<< Updated upstream
 </section>
+=======
+</section>
+>>>>>>> Stashed changes
