@@ -207,5 +207,4 @@ Como resultado, se obtuvo una aplicación web funcional que cumple con el objeti
 
 **EPET N.º 34 – Proyecto grupal de desarrollo web**
 
-**Materia:** Desarrollo Web  
 **Profesor:** Llanes
