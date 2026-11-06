@@ -1,6 +1,6 @@
 <?php
 
-require_once "conexion.php";
+require_once __DIR__ . "/config/conexion.php";
 
 // Comprobar que los datos lleguen mediante POST
 if ($_SERVER["REQUEST_METHOD"] !== "POST") {
