@@ -1,0 +1,233 @@
+/* Configuración general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #263445;
+}
+
+/* Encabezado */
+header {
+    background-color: #173b67;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+    font-size: 30px;
+}
+
+header p {
+    color: #dceaf7;
+}
+
+/* Contenido principal */
+main {
+    width: 90%;
+    max-width: 850px;
+    margin: 30px auto;
+}
+
+/* Secciones */
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+h2 {
+    color: #173b67;
+    margin-bottom: 20px;
+}
+
+/* Formularios */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #34495e;
+}
+
+input {
+    padding: 11px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 15px;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2878b8;
+    box-shadow: 0 0 4px rgba(40, 120, 184, 0.25);
+}
+
+/* Botones y enlaces */
+button {
+    background-color: #2878b8;
+    color: white;
+    border: none;
+    padding: 11px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+button:hover {
+    background-color: #173b67;
+}
+
+a {
+    color: #2878b8;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Lista de contactos */
+.lista-contactos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 15px;
+}
+
+.contacto {
+    background-color: #f4f7fb;
+    border-left: 4px solid #2878b8;
+    border-radius: 7px;
+    padding: 18px;
+}
+
+.contacto h3 {
+    color: #173b67;
+    margin-bottom: 12px;
+}
+
+.contacto p {
+    margin-bottom: 8px;
+    overflow-wrap: anywhere;
+}
+
+/* Mensajes */
+.mensaje-exito {
+    background-color: #d9f0e3;
+    color: #17643b;
+    padding: 13px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.mensaje-error {
+    background-color: #f8dddd;
+    color: #a12626;
+    padding: 13px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.sin-contactos {
+    color: #64748b;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #173b67;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+}
+
+/* Adaptación a celulares */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    main {
+        width: 94%;
+        margin: 20px auto;
+    }
+
+    section {
+        padding: 18px;
+    }
+}
+/* Tabla de contactos */
+.tabla-scroll {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.tabla-contactos {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-contactos th,
+.tabla-contactos td {
+    padding: 11px 10px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+    overflow-wrap: anywhere;
+}
+
+.tabla-contactos th {
+    color: #173b67;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.tabla-contactos tbody tr:hover {
+    background-color: #f4f7fb;
+}
+
+/* Acciones dentro de la fila */
+.acciones-contacto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+}
+
+.acciones-contacto form {
+    margin: 0;
+    display: inline;
+}
+
+.acciones-contacto a {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.btn-eliminar {
+    background-color: #b53b3b;
+    margin-top: 0;
+    padding: 7px 12px;
+    font-size: 14px;
+}
+
+.btn-eliminar:hover {
+    background-color: #8f2c2c;
+}
